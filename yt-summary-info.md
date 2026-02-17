@@ -1,3 +1,39 @@
+https://www.youtube.com/watch?v=q6p-_W6_VoM
+
+This video explains how AI is collapsing traditional career paths and accelerating the pace of skill development, emphasizing that leaning into AI and adapting quickly is the safest approach for knowledge workers.
+
+Here's a breakdown of the key points:
+
+AI is Collapsing Career Futures (0:00-2:17)
+
+AI is compressing various job roles like engineer, product manager, marketer, and designer into a single meta-competency of orchestrating AI agents.
+By late 2026 or early 2027, the ability to orchestrate AI agents will be crucial, making traditional domain knowledge less valuable without this skill.
+The timeline for career leverage is compressing from years into months due to the rapid acceleration of AI capabilities.
+Knowledge Work Roles Are Converging (2:17-4:19)
+
+Gartner predicts that nearly half of enterprise applications will integrate task-specific AI agents by the end of 2026.
+Jobs are changing dramatically; for example, product managers now increasingly use AI for drafting specs, analyzing customer data, and managing tasks.
+Across functions like legal and finance, AI is compressing tasks that once took weeks into hours.
+Software-Shaped Intent for Everyone (4:19-6:38)
+
+Directing AI agents effectively requires thinking in "software-shaped intent," understanding how agents interact with technical ecosystems, tools, memory, and workflow.
+Domain expertise remains foundational but not differentiating by itself; it must be leveraged through AI.
+There is a bottleneck in skilling as all skills converge around the meta-skill of driving AI agents.
+Temporal Collapse: Career Leverage Compressing (6:38-8:33)
+
+AI is accelerating time, causing career leverage to compress into the present moment.
+Traditional career planning, which assumed long timelines for skill development and promotion, is now "catastrophically wrong."
+Waiting for AI tech to "settle down" means missing opportunities already captured by early adopters who have gained years of compounded learning.
+The Bike-Riding Truth About AI (8:33-10:56)
+
+The video compares navigating AI to riding a bike: going faster is safer and steadier than going slower.
+The old career model of expertise appreciating over time is replaced by a new model where expertise atrophies unless continuously updated.
+Continuous engagement and learning are key, as the half-life of specific AI knowledge is short but the learning habit is durable.
+Follow the Money: Half-Trillion in CapEx (10:56-13:32)
+
+AI represents the biggest capital expenditure project in human history, with big tech companies investing trillions in AI-related assets.
+This commitment signals that there is "no other way" for career paths; AI is integral to the future of computing.
+Resistance to AI is unproductive; individuals must engage with curiosity and lean into the technology to thrive.
 
 =========================================================================================================
 
