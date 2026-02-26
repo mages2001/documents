@@ -9,6 +9,14 @@ Businesses are charged only for conversations that occur, making SupportIQ acces
 
 # 2. The Problem
 
+| SMB Pain Points | SupportIQ Solution |
+| :--- | :--- |
+| ❌ Hiring even one support agent costs $30,000–$50,000/year | ✅ SupportIQ handles routine queries automatically, 24/7 |
+| ❌ Chatbot builders require technical setup and ongoing maintenance | ✅ No-code onboarding: upload a document or chat to build your knowledge base |
+| ❌ AI tools that work well for enterprises are priced out of SMB reach | ✅ Pay-per-conversation pricing — zero cost when idle |
+| ❌ Generic bots frustrate customers with irrelevant answers | ✅ AI trained on YOUR business data for relevant, accurate answers |
+| ❌ Missed support requests outside business hours lose sales | ✅ Omnichannel: chat, email, WhatsApp/SMS, and voice in one platform |
+
 # 3. Product Vision
 "Any SMB — from a local bakery to a fast-growing e-commerce brand — should be able to offer enterprise-grade customer support without hiring a single dedicated support agent."
 
@@ -21,10 +29,24 @@ SupportIQ achieves this through three core principles:
 ## Primary Segment
 SMBs across all industries with 1–200 employees who receive repetitive customer inquiries and currently handle them manually via email, WhatsApp, or phone.
 ## Example Verticals
+- 🛍 E-commerce / retail stores
+- 🏡 Real estate agencies
+- 💈 Salons, spas, clinics
+- 🛠 Home services (plumbers, electricians)
+- 🍕 Restaurants & food delivery
+- 📚 Online education / coaching
+- 🏋 Gyms & fitness studios
+- 🏥 Healthcare & wellness clinics
 
 # 5. Supported Channels
 SupportIQ meets customers wherever they already are. All channels share the same AI brain and knowledge base.
 
+| Channel | How It Works | Integration |
+| :--- | :--- | :--- |
+| 💬 Website Chat | Embeddable chat widget installed via a single script tag. AI responds in real time. | Copy-paste JS snippet |
+| 📱 WhatsApp / SMS | Business WhatsApp number connects to SupportIQ. Customers text as normal. | WhatsApp Business API / Twilio |
+| 📧 Email | Business email address (e.g. support@company.com) routed through SupportIQ. | Email forwarding / SendGrid |
+| 📞 Voice Calls | Inbound calls handled by an AI voice agent with natural speech. Escalates to human if needed. | Twilio Voice / Deepgram STT |
 
 # 6. Core Features
 ## 6.1  Knowledge Base Builder
@@ -64,11 +86,25 @@ Every time a human agent resolves a case the AI could not handle, the system obs
 # 7. Business Model & Pricing
 Pay-per-conversation: businesses are charged only when a conversation occurs. A conversation is defined as a continuous interaction with one customer on one channel, regardless of the number of messages exchanged, up to 30 minutes of inactivity.
 
+| Tier | Conversations/Month | Price Per Conversation |
+| :--- | :--- | :--- |
+| Starter | 0 – 500 | $0.08 |
+| Growth | 501 – 5,000 | $0.06 |
+| Scale | 5,001 – 50,000 | $0.04 |
+| Enterprise | 50,000+ | Custom negotiated |
 
 Additional charges apply for voice (billed per minute of call at $0.03/min) and SMS (billed per outbound message at $0.01/message). A free trial of 100 conversations is included on signup with no credit card required.
 
 # 8. Technical Architecture
 ## 8.1  High-Level Components
+
+| Core Backend Components | Supporting Systems |
+| :--- | :--- |
+| Omnichannel Gateway | Human Agent Interface |
+| AI Orchestration Layer | Business Dashboard (Web App) |
+| Knowledge Base Engine | Billing & Usage Metering |
+| Voice Processing Pipeline | Authentication & Multi-tenancy |
+| Learning & Feedback Loop | Notification Service |
 
 ## 8.2  AI & ML Stack
 - LLM: Claude (Anthropic) via API for conversation understanding, response generation, and KB synthesis.
@@ -108,7 +144,31 @@ Additional charges apply for voice (billed per minute of call at $0.03/min) and 
 
 # 10. Risks & Mitigations
 
+| Risk | Mitigation |
+| :--- | :--- |
+| AI gives a wrong answer confidently | Confidence scoring: AI declines to answer below a threshold and escalates instead |
+| Business provides poor/no knowledge base | Mandatory onboarding quality check before going live; AI interview mode fills gaps |
+| Voice quality is poor in noisy environments | Voice channel flagged as beta; fallback to text when STT confidence is low |
+| Privacy concerns about conversation data | Data stored per-tenant; no cross-business training; GDPR/CCPA compliant |
+| SMBs churn when ROI is not clear | Dashboard shows clear "cost saved vs. agent" metric; in-app ROI calculator |
+
 # 11. Phased Roadmap
+
+| PHASE 1 — MVP (Month 0–4) | PHASE 2 — Expand (Month 5–8) |
+| :--- | :--- |
+| Website chat widget only | WhatsApp / SMS channel |
+| Document upload knowledge base | Email channel |
+| Basic human handoff (email notification) | Chat-to-KB and voice-to-KB onboarding |
+| Simple dashboard with usage stats | Improved handoff (in-platform agent console) |
+| Pay-per-conversation billing | Mobile app for agents |
+
+| PHASE 3 — Growth (Month 9–15) | PHASE 4 — Scale (Month 16+) |
+| :--- | :--- |
+| Voice channel (inbound calls) | Multilingual support (10+ languages) |
+| AI learning from human agents | CRM integrations (HubSpot, Zoho, Salesforce) |
+| Multi-agent team management | White-label version for resellers |
+| Advanced analytics & CSAT tracking | Industry-specific AI models |
+| API access for custom integrations | Self-service Enterprise tier |
 
 # 12. Success Metrics
 - AI Resolution Rate: % of conversations fully handled by AI without human handoff. Target: >70% by Month 6.
